@@ -2,7 +2,7 @@
   "name": "my-project",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "homepage": "fgtucv.github.io/pohotoLblari/",
+  "homepage": "https://fgtucv.github.io/pohotoLblari/",
   "scripts": {
     "start": "parcel --no-cache",
     "build": "parcel build src/*.html --public-url /pohotoLblari/",
