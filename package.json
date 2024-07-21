@@ -5,7 +5,9 @@
   "homepage": "fgtucv.github.io/pohotoLblari/",
   "scripts": {
     "start": "parcel --no-cache",
-    "build": "parcel build"
+    "build": "parcel build src/*.html --public-url /pohotoLblari/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "basiclightbox": "^5.0.4",
